@@ -1,0 +1,39 @@
+{
+	"/": [
+		"src/pages/+layout.js",
+		"src/pages/+layout.server.js",
+		"src/pages/+layout.js",
+		"src/pages/+layout.server.js"
+	],
+	"/api/customFormattingSettings.json": [
+		"src/pages/api/customFormattingSettings.json/+server.js"
+	],
+	"/api/manifest.json": [
+		"src/pages/api/manifest.json/+server.js"
+	],
+	"/api/settings.json": [
+		"src/pages/api/settings.json/+server.js"
+	],
+	"/api/status/[...route]": [
+		"src/pages/api/status/[...route]/+server.js"
+	],
+	"/api/testConnection.json": [
+		"src/pages/api/testConnection.json/+server.js"
+	],
+	"/api/[route].json": [
+		"src/pages/api/[route].json/+server.js"
+	],
+	"/control-statements": [
+		"src/pages/+layout.js",
+		"src/pages/+layout.server.js"
+	],
+	"/settings": [
+		"src/pages/settings/+page.js",
+		"src/pages/settings/+layout.server.js",
+		"src/pages/+layout.js",
+		"src/pages/+layout.server.js",
+		"src/pages/settings/+layout.server.js",
+		"src/pages/+layout.js",
+		"src/pages/+layout.server.js"
+	]
+}
