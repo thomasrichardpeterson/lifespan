@@ -32,8 +32,8 @@ limit 10;
 </DataTable>
 
 
-<Details title="Examination of Zambia's Two-Decade Life Expectancy Decline">
-
+<!--Details title="Examination of Zambia's Two-Decade Life Expectancy Decline"-->
+## Examination of Zambia's Two-Decade Life Expectancy Decline
 ### Fluctuations in Life Expectancy in Zambia from 1951 to 2020
 ```sql zambia
 select newer.year, 
@@ -120,7 +120,7 @@ select 1970, 	 813521836
   <ReferenceLine x=1974 label="-38% Copper" hideValue=true/>
   <ReferenceLine x=1979 label="+102% Oil" hideValue=true/>
 </LineChart>
-</Details>
+<!--/Details-->
 
 # Nations with Discontinuous Yearly Data
 The top ten countries exhibiting data gaps tend to be situated in more developed regions, and these data discontinuities typically occur in earlier historical periods. Bangladesh leads the list.<br><br>
@@ -140,7 +140,8 @@ limit 10;
   <Column id="span" title="Years"/>
 </DataTable>
 
-<Details title="Analysis of Bangladesh's Estimated 30 years of Life Expectancy Reduction">
+<!--Details title="Analysis of Bangladesh's Estimated 30 years of Life Expectancy Reduction"-->
+## Details title="Analysis of Bangladesh's Estimated 30 years of Life Expectancy Reduction
 Life expectancy in Bangladesh experienced a distressingly low period during the late 19th and early 20th centuries. This challenging situation was exacerbated by the impact of British Raj rule, particularly affecting the region then known as Bengal.<br>
 [The Bengal Famine](https://yourstory.com/2014/08/bengal-famine-genocide)
 
@@ -180,4 +181,4 @@ Thankfully, Bangladesh's life expectancy ascended to align with global averages 
   <ReferenceLine x=1971 label="War of Independence" hideValue=true/>
 </LineChart>
 
-</Details>
+<!--/Details-->
